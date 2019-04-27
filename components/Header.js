@@ -18,8 +18,8 @@ const Header = () => (
         <Link href="/">
           <a className="nav-link">Главная</a>
         </Link>
-        <NavDropdown title="Реабилитация наркозависимости">
-          <DropdownLink href="/rehabilitation" title="Реабилитация наркозависимости"/>
+        <NavDropdown title="Реабилитация наркозависимых">
+          <DropdownLink href="/rehabilitation" title="Реабилитация наркозависимых"/>
           <DropdownLink href="/steps12" title="Программа 12 шагов"/>
           <DropdownLink href="/how_works" title="Как проходит лечение"/>
         </NavDropdown>
@@ -28,46 +28,45 @@ const Header = () => (
           <DropdownLink href="/alcohol_woman" title="Лечение у женщин"/>
         </NavDropdown>
         <NavDropdown title="Проблемы наркомании">
-          <DropdownLink title="Основные проблемы"/>
-          <Link href="/under-construction">
+          <Link href="/drug_problems">
+            <a className="dropdown-item">Основные проблемы</a>
+          </Link>
+          <Link href="/heroin">
             <a className="dropdown-item">Героин</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/gambling">
             <a className="dropdown-item">Игромания</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/methamphetamine">
             <a className="dropdown-item">Метамфетамин</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/salt">
             <a className="dropdown-item">Соли</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/spice">
             <a className="dropdown-item">Спайс</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/ecstasy">
             <a className="dropdown-item">Экстази</a>
           </Link>
         </NavDropdown>
-        <Link href="/under-construction">
+        <Link href="/codependency">
           <a className="nav-link">Созависимость</a>
         </Link>
         <NavDropdown title="О центре" alignRight>
-          <Link href="/under-construction">
+          <Link href="/about">
+            <a className="dropdown-item">О нас</a>
+          </Link>
+          <Link href="/contacts">
             <a className="dropdown-item">Контакты</a>
           </Link>
-          <Link href="/under-construction">
-            <a className="dropdown-item">Фотоальбом</a>
-          </Link>
-          <Link href="/under-construction">
+          <Link href="/our_home">
             <a className="dropdown-item">Наш дом</a>
           </Link>
-          <Link href="/under-construction">
-            <a className="dropdown-item">Видео альбом</a>
-          </Link>
-          <Link href="/under-construction">
+          <Link href="/qualification">
             <a className="dropdown-item">Повышение квалификации</a>
           </Link>
-          <Link href="/under-construction">
+          <Link href="/lectures">
             <a className="dropdown-item">Видео лекции</a>
           </Link>
         </NavDropdown>

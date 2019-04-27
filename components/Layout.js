@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Header from './Header'
 import Logo from '../components/Logo';
 import Phones from '../components/Phones';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = props => (
   <div>
