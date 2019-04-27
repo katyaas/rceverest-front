@@ -26,7 +26,7 @@ const Logo = () => (
           display: flex;
           justify-content: flex-start;
         }
-        @media screen and (max-width: 437px) {
+        @media screen and (max-width: 480px) {
           .logoRoot {
             justify-content: center;
           }

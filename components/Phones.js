@@ -1,14 +1,12 @@
 import React from 'react';
 
+import Phone from './Phone';
+
 const Phones = () => (
   <div className="phones">
     <div>Телефоны для связи:</div>
-    <div>
-        +79061984647
-    </div>
-    <div>
-        +79061991188
-    </div>
+    <Phone>+7 (906) 198-46-47</Phone>
+    <Phone>+7 (906) 199-11-88</Phone>
     <style jsx>{`
         .phones {
           font-weight: bold;
