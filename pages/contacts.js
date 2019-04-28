@@ -37,7 +37,7 @@ export default function Contacts() {
 
         ИНН: 7000000130 КПП: 701702002 ОГРН: 1027000002446
         <YMaps>
-          <Map defaultState={mapData} width="100%">
+          <Map defaultState={mapData} width="100%" height={600}>
             {coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
           </Map>
         </YMaps>

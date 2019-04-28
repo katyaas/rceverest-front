@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         <link rel="stylesheet" href="/_next/static/style.css" />
       </Head>
       <body style={{
-        backgroundImage: 'url(/static/background2.jpg)',
+        backgroundImage: 'linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url(/static/background2.jpg)',
         backgroundSize: 'cover',
       }}>
       <Main />
