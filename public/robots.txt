@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /under-construction
+Sitemap: https://rceverest.ru/sitemap.xml

@@ -6,20 +6,22 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.3.1",
-    "express": "^4.16.4",
-    "next": "^8.0.4",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.6",
-    "react-dom": "^16.8.6",
-    "react-yandex-maps": "^3.0.2",
+    "express": "^4.17.1",
+    "next": "^9.1.2",
+    "next-ym": "^2.3.5",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-yandex-maps": "^4.0.1",
     "react-youtube": "^7.9.0",
-    "webpack": "^4.29.6"
+    "sitemap": "^5.1.0",
+    "webpack": "^4.41.2"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next",
+    "dev": "node server/app.js",
     "build": "next build",
-    "start": "next start",
+    "start": "node server/app.js",
     "now-build": "next build"
   },
   "repository": {
