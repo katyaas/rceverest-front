@@ -1,3 +1,4 @@
+import React from 'react';
 import Col from 'react-bootstrap/Col';
 import { YMaps, Map, Placemark } from "react-yandex-maps";
 
